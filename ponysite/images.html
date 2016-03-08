@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+    <head>
+        <meta name="generator"
+              content="HTML Tidy for Windows (vers 25 March 2009), see www.w3.org">
+        <meta charset="UTF-8">
+        <title></title>
+        <style type="text/css">
+#placeholderdiv {
+        width:436px;
+        height:290px;
+        position:relative;
+        left:615px;
+        top:-295px;
+        }
+        #images {
+        width:1051px;
+        height:290px;
+        }
+        </style>
+        <style type="text/css">
+body.c3 {height:290px;width:1051px}
+        img.c2 {width:221px;height:290px;border:0}
+        img.c1 {width:384px;height:288px;border:0}
+        </style>
+    </head>
+    <body class="c3">
+        <!-- Images -->
+        <div id="images">
+            <!--  <p class="pos_right" style='margin-right:2.25pt'>  -->
+            <img src="images/church.jpg"
+                 alt="church.jpg"
+                 class="c1"> <img src="images/anicross.gif"
+                 alt="anicross.gif"
+                 class="c2">
+            <layer id="placeholderlayer"></layer>
+            <div id="placeholderdiv"></div>
+        </div><script language="JavaScript1.2"
+              type="text/javascript">
+
+        var howOften = 5; //number often in seconds to rotate
+        var current = 0; //start the counter at 0
+        var ns6 = document.getElementById&&!document.all; //detect netscape 6
+
+        // place your images, text, etc in the array elements here
+        var items = new Array();
+        items[0]="<a href='link.htm' ><img alt='image0 (9K)' src='images/rotate/image0.jpg' height='290' width='436' border='0' /><\/a>"; //a linked image
+        items[1]="<a href='link.htm'><img alt='image1 (9K)' src='images/rotate/image1.jpg' height='290' width='436' border='0' /><\/a>"; //a linked image
+        items[2]="<a href='link.htm'><img alt='image2 (9K)' src='images/rotate/image2.jpg' height='290' width='436' border='0' /><\/a>"; //a linked image
+        items[3]="<a href='link.htm'><img alt='image3 (9K)' src='images/rotate/image3.jpg' height='290' width='436' border='0' /><\/a>"; //a linked image
+        items[4]="<a href='link.htm'><img alt='image4 (9K)' src='images/rotate/image4.jpg' height='290' width='436' border='0' /><\/a>"; //a linked image
+        items[5]="<a href='link.htm'><img alt='image5 (18K)' src='images/rotate/image5.jpg' height='290' width='436' border='0' /><\/a>"; //a linked image
+        items[6]="<a href='link.htm'><img alt='image6 (18K)' src='images/rotate/image7.jpg' height='290' width='436' border='0' /><\/a>"; //a linked image
+        function rotater() {
+        document.getElementById("placeholder").innerHTML = items[current];
+        current = (current==items.length-1) ? 0 : current + 1;
+        setTimeout("rotater()",howOften*1000);
+        }
+
+        function rotater() {
+        if(document.layers) {
+        document.placeholderlayer.document.write(items[current]);
+        document.placeholderlayer.document.close();
+        }
+        if(ns6)document.getElementById("placeholderdiv").innerHTML=items[current]
+        if(document.all)
+            placeholderdiv.innerHTML=items[current];
+
+        current = (current==items.length-1) ? 0 : current + 1; //increment or reset
+        setTimeout("rotater()",howOften*1000);
+        }
+        window.onload=rotater;
+        //-->
+        </script>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+﻿body {
+    background-color: #EBC2FF;
+	background-image: url("../images/mylittlepony.jpg");
+	background-repeat: repeat-y;
+	
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    width: 100%;
+}
+.left {
+    position: relative;
+    left: 10px;
+    width: 880px;
+}
+.pos_justify {
+    position: relative;
+    text-align: justify;
+    left: 40px;
+    width: 1085px;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: purple;
+}
+.pos_right {
+    position: relative;
+    left: 10px;
+}
+.iframehead {
+    width: 1050px;
+    height: 500px;
+    border: 0;
+    overflow-y: hidden;
+}
+
+#corrections {
+    background-color:#ED7BAB;
+}
+
+#header_iframe {
+      background-color: transparent;
+    border: 0px none transparent;
+    padding: 0px;
+    overflow: hidden;
+}

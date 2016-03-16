@@ -51,7 +51,7 @@
 			"file": "images.html",
 			"settings":
 			{
-				"buffer_size": 13165,
+				"buffer_size": 15743,
 				"line_ending": "Windows"
 			}
 		},
@@ -152,10 +152,11 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/images.html"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -186,7 +187,7 @@
 	"groups":
 	[
 		{
-			"selected": 13,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -336,7 +337,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -345,7 +346,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13165,
+						"buffer_size": 15743,
 						"regions":
 						{
 						},
@@ -363,10 +364,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1260.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -382,8 +383,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								7427,
+								7427
 							]
 						],
 						"settings":
@@ -396,7 +397,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -426,7 +427,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -456,7 +457,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -486,7 +487,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -516,7 +517,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -546,7 +547,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -576,7 +577,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -606,7 +607,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -614,7 +615,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -651,7 +652,7 @@
 	"project": "wesleychapel.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":

@@ -55,79 +55,54 @@
         <div id="placeholderdiv"></div>
     </div>
     <script language="JavaScript1.2" type="text/javascript">
+    var MAXPICS = 75;
+
+
     var howOften = 5; //number often in seconds to rotate
     var current = 0; //start the counter at 0
+
     var ns6 = document.getElementById && !document.all; //detect netscape 6
     // place your images, text, etc in the array elements here
+    
+
+
+
+    var pics = new Array();
+
+
     var items = new Array();
     items[0] = "<a href='link.htm'><img alt='church (18K)' src='images/church.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[1] = "<a href='link.htm'><img alt='image1 (9K)' src='images/rotate/image1.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[2] = "<a href='link.htm'><img alt='image2 (9K)' src='images/rotate/image2.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[3] = "<a href='link.htm'><img alt='image3 (9K)' src='images/rotate/image3.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[4] = "<a href='link.htm'><img alt='image4 (9K)' src='images/rotate/image4.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[5] = "<a href='link.htm'><img alt='image5 (18K)' src='images/rotate/image5.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[6] = "<a href='link.htm'><img alt='image6 (18K)' src='images/rotate/image6.jpg' height='193px' width='291px' border='0' /><\/a>"; //a linked image
-    items[7] = "<a href='link.htm' ><img alt='image7 (9K)' src='images/rotate/image7.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[8] = "<a href='link.htm'><img alt='image8 (9K)' src='images/rotate/image8.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[9] = "<a href='link.htm'><img alt='image9 (9K)' src='images/rotate/image9.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[10] = "<a href='link.htm' ><img alt='image10 (9K)' src='images/rotate/image10.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[11] = "<a href='link.htm'><img alt='image11 (9K)' src='images/rotate/image11.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[12] = "<a href='link.htm'><img alt='image12 (9K)' src='images/rotate/image12.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[13] = "<a href='link.htm'><img alt='image13 (9K)' src='images/rotate/image13.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[14] = "<a href='link.htm' ><img alt='image27 (9K)' src='images/rotate/image27.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[15] = "<a href='link.htm' ><img alt='image0 (9K)' src='images/rotate/image0.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[16] = "<a href='link.htm' ><img alt='image16 (9K)' src='images/rotate/image16.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[17] = "<a href='link.htm' ><img alt='image17 (9K)' src='images/rotate/image17.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[18] = "<a href='link.htm'><img alt='image28 (9K)' src='images/rotate/image28.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[19] = "<a href='link.htm'><img alt='image19 (9K)' src='images/rotate/image19.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[20] = "<a href='link.htm' ><img alt='image20 (9K)' src='images/rotate/image20.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[21] = "<a href='link.htm'><img alt='image21 (9K)' src='images/rotate/image21.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[22] = "<a href='link.htm'><img alt='image22 (9K)' src='images/rotate/image22.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[23] = "<a href='link.htm'><img alt='image23 (9K)' src='images/rotate/image23.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[24] = "<a href='link.htm'><img alt='image24 (9K)' src='images/rotate/image24.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[25] = "<a href='link.htm'><img alt='image25 (18K)' src='images/rotate/image25.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[26] = "<a href='link.htm'><img alt='image26 (18K)' src='images/rotate/image26.jpg' height='193px' width='291px' border='0' /><\/a>"; //a linked image
-    items[27] = "<a href='link.htm' ><img alt='image29 (9K)' src='images/rotate/image29.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[28] = "<a href='link.htm'><img alt='image30 (9K)' src='images/rotate/image30.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[29] = "<a href='link.htm'><img alt='image31 (9K)' src='images/rotate/image31.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[30] = "<a href='link.htm' ><img alt='image32 (9K)' src='images/rotate/image32.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[31] = "<a href='link.htm'><img alt='image33 (9K)' src='images/rotate/image33.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[32] = "<a href='link.htm'><img alt='image34 (9K)' src='images/rotate/image34.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[33] = "<a href='link.htm' ><img alt='image35 (9K)' src='images/rotate/image35.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[34] = "<a href='link.htm' ><img alt='image36 (9K)' src='images/rotate/image36.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[35] = "<a href='link.htm' ><img alt='image37 (9K)' src='images/rotate/image37.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[36] = "<a href='link.htm' ><img alt='image38 (9K)' src='images/rotate/image38.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[37] = "<a href='link.htm' ><img alt='image39 (9K)' src='images/rotate/image39.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[38] = "<a href='link.htm' ><img alt='image40 (9K)' src='images/rotate/image40.jpg' height='193px' width='127px'  border='0' /><\/a>"; //a linked image
+    
 
-    items[39] = "<a href='link.htm' ><img alt='image41 (9K)' src='images/rotate/image41.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[40] = "<a href='link.htm' ><img alt='image42 (9K)' src='images/rotate/image42.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[41] = "<a href='link.htm' ><img alt='image43 (9K)' src='images/rotate/image43.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[42] = "<a href='link.htm' ><img alt='image44 (9K)' src='images/rotate/image44.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[43] = "<a href='link.htm' ><img alt='image45 (9K)' src='images/rotate/image45.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[44] = "<a href='link.htm' ><img alt='image46 (9K)' src='images/rotate/image46.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[45] = "<a href='link.htm' ><img alt='image47 (9K)' src='images/rotate/image47.jpg' height='193px' width='127px'  border='0' /><\/a>"; //a linked image
-    items[46] = "<a href='link.htm' ><img alt='image48 (9K)' src='images/rotate/image48.jpg' height='193px' width='127px'  border='0' /><\/a>"; //a linked image
+    function loadpics(){
+        getfiles();
+        rotater();
+    }
 
-    items[47] = "<a href='link.htm' ><img alt='image49 (9K)' src='images/rotate/image49.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[48] = "<a href='link.htm' ><img alt='image50 (9K)' src='images/rotate/image50.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[49] = "<a href='link.htm' ><img alt='image51 (9K)' src='images/rotate/image51.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[50] = "<a href='link.htm' ><img alt='image52 (9K)' src='images/rotate/image52.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[51] = "<a href='link.htm' ><img alt='image53 (9K)' src='images/rotate/image53.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[52] = "<a href='link.htm' ><img alt='image54 (9K)' src='images/rotate/image54.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[53] = "<a href='link.htm' ><img alt='image55 (9K)' src='images/rotate/image55.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[54] = "<a href='link.htm' ><img alt='image56 (9K)' src='images/rotate/image56.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image  
-  
-    items[55] = "<a href='link.htm' ><img alt='image57 (9K)' src='images/rotate/image57.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[56] = "<a href='link.htm' ><img alt='image58 (9K)' src='images/rotate/image58.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[57] = "<a href='link.htm' ><img alt='image59 (9K)' src='images/rotate/image59.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[58] = "<a href='link.htm' ><img alt='image60 (9K)' src='images/rotate/image60.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[59] = "<a href='link.htm' ><img alt='image61 (9K)' src='images/rotate/image61.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[60] = "<a href='link.htm' ><img alt='image62 (9K)' src='images/rotate/image62.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-    items[61] = "<a href='link.htm' ><img alt='image63 (9K)' src='images/rotate/image63.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
-  //  items[62] = "<a href='link.htm' ><img alt='image64 (9K)' src='images/rotate/image64.jpg' height='193px' width='291px'  border='0' /><\/a>"; //a linked image
+    //  This puts in the names of the files in images/rotate/image??.jpg into the items to be displayed
+    function getfiles() {
+        var curfilename = "";
+        for (var i=1;i< MAXPICS+1;i++) {
+            curfilename = "image"+i.toString();
+            
+            pics.push(curfilename);
+        }
+        
+        var itemhtml = "";
+        for (var k = 1;k<MAXPICS+1;k++){
+            itemhtml = "<a href='link.htm' ><img alt='" + pics[k-1] + " (9K)' src='images/rotate/" + pics[k-1] + ".jpg' height='193px' width='291px'  border='0' /><\/a>";
+            items.push(itemhtml);
+        }
 
+        //  for files that are narrow, put in their numbers here so that they will not be stretched
+        var narrownums = [18,40,47,48, 65,68,69,73];
+        for (l=0, len= narrownums.length;l<len;l++){
+            var m = narrownums[l];
 
+             items[m] = items[m].replace("width='291px","width='127px");
+
+        }
+    }
 
     function rotater() {
         setopacity("placeholderlayer",0);
@@ -194,7 +169,7 @@
     }
 
 
-    window.onload = rotater;
+    window.onload = loadpics;  //rotater;
     //-->
     </script>
 </body>

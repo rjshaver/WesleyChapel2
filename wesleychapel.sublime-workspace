@@ -19,7 +19,7 @@
 			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 4394,
+				"buffer_size": 4410,
 				"line_ending": "Windows"
 			}
 		},
@@ -35,7 +35,7 @@
 			"file": "footer.html",
 			"settings":
 			{
-				"buffer_size": 2734,
+				"buffer_size": 2987,
 				"line_ending": "Windows"
 			}
 		},
@@ -88,10 +88,18 @@
 			}
 		},
 		{
-			"file": "staff.html",
+			"file": "staff2.html",
 			"settings":
 			{
-				"buffer_size": 5137,
+				"buffer_size": 8005,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/WesleyStyleSheet.css",
+			"settings":
+			{
+				"buffer_size": 1073,
 				"line_ending": "Windows"
 			}
 		},
@@ -190,7 +198,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 10,
 			"sheets":
 			[
 				{
@@ -206,8 +214,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								697,
+								697
 							]
 						],
 						"settings":
@@ -220,7 +228,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -229,15 +237,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4394,
+						"buffer_size": 4410,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3591,
+								3591
 							]
 						],
 						"settings":
@@ -247,10 +255,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 675.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -280,7 +288,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
@@ -289,15 +297,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2734,
+						"buffer_size": 2987,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2644,
+								2644
 							]
 						],
 						"settings":
@@ -307,10 +315,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 510.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -340,7 +348,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -370,7 +378,7 @@
 						"translation.y": 405.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -386,8 +394,8 @@
 						"selection":
 						[
 							[
-								801,
-								801
+								7307,
+								7307
 							]
 						],
 						"settings":
@@ -397,10 +405,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 1395.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -430,7 +438,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
@@ -460,7 +468,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
@@ -490,24 +498,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
 					"buffer": 10,
-					"file": "staff.html",
+					"file": "staff2.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5137,
+						"buffer_size": 8005,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2763,
-								2763
+								4042,
+								4042
 							]
 						],
 						"settings":
@@ -517,14 +525,44 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 737.0,
+						"translation.y": 840.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 11,
+					"file": "css/WesleyStyleSheet.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1073,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 420.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
 					"file": "sundaymorning.html",
 					"semi_transient": false,
 					"settings":
@@ -550,11 +588,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 13,
 					"file": "umwomen.html",
 					"semi_transient": false,
 					"settings":
@@ -580,11 +618,11 @@
 						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 14,
 					"file": "whoweare.html",
 					"semi_transient": false,
 					"settings":
@@ -610,7 +648,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 9,
 					"type": "text"
 				}
 			]

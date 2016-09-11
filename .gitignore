@@ -45,6 +45,7 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+<<<<<<< HEAD
 
 
 
@@ -53,3 +54,11 @@ Temporary Items
 .sublime-project
 .sublime-workspace
 
+=======
+/.project
+
+
+# My sublime files
+.sublime-project
+.sublime-workspace
+>>>>>>> feature/fi_mobile

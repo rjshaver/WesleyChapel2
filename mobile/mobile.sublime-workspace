@@ -15,7 +15,7 @@
 			"file": "calendar.html",
 			"settings":
 			{
-				"buffer_size": 2334,
+				"buffer_size": 1876,
 				"line_ending": "Windows"
 			}
 		},
@@ -31,7 +31,15 @@
 			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 4852,
+				"buffer_size": 4394,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "course.html",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -39,7 +47,7 @@
 			"file": "directions.html",
 			"settings":
 			{
-				"buffer_size": 3137,
+				"buffer_size": 2679,
 				"line_ending": "Windows"
 			}
 		},
@@ -47,7 +55,7 @@
 			"file": "footer.html",
 			"settings":
 			{
-				"buffer_size": 3193,
+				"buffer_size": 2734,
 				"line_ending": "Windows"
 			}
 		},
@@ -55,7 +63,7 @@
 			"file": "head.html",
 			"settings":
 			{
-				"buffer_size": 1987,
+				"buffer_size": 1529,
 				"line_ending": "Windows"
 			}
 		},
@@ -71,15 +79,26 @@
 			"file": "history.html",
 			"settings":
 			{
-				"buffer_size": 22372,
+				"buffer_size": 21913,
 				"line_ending": "Windows"
 			}
 		},
 		{
+<<<<<<< HEAD
+=======
+			"file": "images.html",
+			"settings":
+			{
+				"buffer_size": 11075,
+				"line_ending": "Windows"
+			}
+		},
+		{
+>>>>>>> parent of aae4754... Start to put in bootstrap
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7925,
+				"buffer_size": 7427,
 				"line_ending": "Windows"
 			}
 		},
@@ -87,7 +106,11 @@
 			"file": "menu.html",
 			"settings":
 			{
+<<<<<<< HEAD
 				"buffer_size": 3349,
+=======
+				"buffer_size": 2289,
+>>>>>>> parent of aae4754... Start to put in bootstrap
 				"line_ending": "Windows"
 			}
 		},
@@ -95,7 +118,7 @@
 			"file": "ministries.html",
 			"settings":
 			{
-				"buffer_size": 6380,
+				"buffer_size": 5918,
 				"line_ending": "Windows"
 			}
 		},
@@ -103,7 +126,7 @@
 			"file": "missions.html",
 			"settings":
 			{
-				"buffer_size": 4218,
+				"buffer_size": 3759,
 				"line_ending": "Windows"
 			}
 		},
@@ -111,7 +134,7 @@
 			"file": "playschool.html",
 			"settings":
 			{
-				"buffer_size": 4028,
+				"buffer_size": 3568,
 				"line_ending": "Windows"
 			}
 		},
@@ -127,7 +150,7 @@
 			"file": "staff.html",
 			"settings":
 			{
-				"buffer_size": 5836,
+				"buffer_size": 5376,
 				"line_ending": "Windows"
 			}
 		},
@@ -135,7 +158,7 @@
 			"file": "sundaymorning.html",
 			"settings":
 			{
-				"buffer_size": 6609,
+				"buffer_size": 6149,
 				"line_ending": "Windows"
 			}
 		},
@@ -143,7 +166,7 @@
 			"file": "sundayschool.html",
 			"settings":
 			{
-				"buffer_size": 4785,
+				"buffer_size": 4325,
 				"line_ending": "Windows"
 			}
 		},
@@ -167,7 +190,7 @@
 			"file": "umwomen.html",
 			"settings":
 			{
-				"buffer_size": 3543,
+				"buffer_size": 3083,
 				"line_ending": "Windows"
 			}
 		},
@@ -183,7 +206,7 @@
 			"file": "whoweare.html",
 			"settings":
 			{
-				"buffer_size": 6997,
+				"buffer_size": 6537,
 				"line_ending": "Windows"
 			}
 		},
@@ -191,7 +214,7 @@
 			"file": "worship.html",
 			"settings":
 			{
-				"buffer_size": 11189,
+				"buffer_size": 10731,
 				"line_ending": "Windows"
 			}
 		},
@@ -199,7 +222,7 @@
 			"file": "youth.html",
 			"settings":
 			{
-				"buffer_size": 2405,
+				"buffer_size": 1945,
 				"line_ending": "Windows"
 			}
 		}
@@ -211,30 +234,10 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 150.0,
-		"last_filter": "control:in",
+		"height": 247.0,
+		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"control:in",
-				"Package Control: Install Package"
-			],
-			[
-				"con",
-				"Package Control: Discover Packages"
-			],
-			[
-				"color",
-				"Colorsublime: Install Theme"
-			],
-			[
-				"control",
-				"Package Control: Install Package"
-			],
-			[
-				"package",
-				"Package Control: Install Package"
-			],
 			[
 				"tidy",
 				"Trimmer: Delete empty lines."
@@ -268,20 +271,13 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 528.0
+		"width": 768.0
 	},
 	"console":
 	{
-		"height": 98.0,
+		"height": 388.0,
 		"history":
 		[
-			"cmd git",
-			"git",
-			"ls",
-			"dir",
-			"cmd",
-			"git",
-			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
 			"import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
 			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
 		]
@@ -297,6 +293,7 @@
 	},
 	"file_history":
 	[
+<<<<<<< HEAD
 		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/images.html.bak.html",
 		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/images.html",
 		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
@@ -305,6 +302,8 @@
 		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/course.html",
 		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/pen.html",
+=======
+>>>>>>> parent of aae4754... Start to put in bootstrap
 		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/index.html",
 		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/head.html",
 		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/images.html",
@@ -348,6 +347,7 @@
 		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
 		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/header.html",
 		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/head.html",
+		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/youth.html",
 		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/worship.html",
 		"/C/Users/Randy/Documents/GitHub/openbay/src/www/css/opb.css",
@@ -373,7 +373,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"position",
 			"placeholderdiv",
 			"290",
 			"436",
@@ -397,7 +396,11 @@
 	"groups":
 	[
 		{
+<<<<<<< HEAD
 			"selected": 7,
+=======
+			"selected": 25,
+>>>>>>> parent of aae4754... Start to put in bootstrap
 			"sheets":
 			[
 				{
@@ -406,7 +409,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2334,
+						"buffer_size": 1876,
 						"regions":
 						{
 						},
@@ -421,14 +424,13 @@
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
@@ -444,111 +446,21 @@
 						"selection":
 						[
 							[
-								457,
-								457
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										464,
-										469
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										435,
-										440
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
@@ -557,19 +469,20 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4852,
+						"buffer_size": 4394,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1321,
-								1321
+								0,
+								0
 							]
 						],
 						"settings":
 						{
+<<<<<<< HEAD
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.locations":
 							{
@@ -659,56 +572,54 @@
 								"bh_square_close",
 								"bh_square_content"
 							],
+=======
+>>>>>>> parent of aae4754... Start to put in bootstrap
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
-						},
-						"translation.x": 0.0,
-						"translation.y": 504.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "directions.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3137,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "course.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "footer.html",
+					"file": "directions.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3193,
+						"buffer_size": 2679,
 						"regions":
 						{
 						},
@@ -723,49 +634,77 @@
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 504.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "head.html",
+					"file": "footer.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1987,
+						"buffer_size": 2734,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								608,
-								608
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 144.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
+					"file": "head.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "header.html",
 					"semi_transient": false,
 					"settings":
@@ -777,8 +716,8 @@
 						"selection":
 						[
 							[
-								373,
-								373
+								0,
+								0
 							]
 						],
 						"settings":
@@ -874,23 +813,22 @@
 							],
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "history.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 22372,
+						"buffer_size": 21913,
 						"regions":
 						{
 						},
@@ -903,6 +841,7 @@
 						],
 						"settings":
 						{
+<<<<<<< HEAD
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.locations":
 							{
@@ -992,37 +931,77 @@
 								"bh_c_define_close",
 								"bh_c_define_content"
 							],
+=======
+>>>>>>> parent of aae4754... Start to put in bootstrap
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+<<<<<<< HEAD
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "index.html",
+=======
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "images.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7925,
+						"buffer_size": 11075,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1021,
-								524
+								0,
+								0
 							]
 						],
 						"settings":
 						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+>>>>>>> parent of aae4754... Start to put in bootstrap
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+<<<<<<< HEAD
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.locations":
 							{
@@ -1097,25 +1076,38 @@
 								"bh_default_close",
 								"bh_default_content"
 							],
+=======
+>>>>>>> parent of aae4754... Start to put in bootstrap
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+<<<<<<< HEAD
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 9,
+=======
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+>>>>>>> parent of aae4754... Start to put in bootstrap
 					"file": "menu.html",
 					"semi_transient": false,
 					"settings":
 					{
+<<<<<<< HEAD
 						"buffer_size": 3349,
+=======
+						"buffer_size": 2289,
+>>>>>>> parent of aae4754... Start to put in bootstrap
 						"regions":
 						{
 						},
@@ -1219,23 +1211,26 @@
 							],
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 23,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
+<<<<<<< HEAD
 					"buffer": 10,
+=======
+					"buffer": 12,
+>>>>>>> parent of aae4754... Start to put in bootstrap
 					"file": "ministries.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6380,
+						"buffer_size": 5918,
 						"regions":
 						{
 						},
@@ -1339,23 +1334,26 @@
 							],
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
+<<<<<<< HEAD
 					"buffer": 11,
+=======
+					"buffer": 13,
+>>>>>>> parent of aae4754... Start to put in bootstrap
 					"file": "missions.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4218,
+						"buffer_size": 3759,
 						"regions":
 						{
 						},
@@ -1370,23 +1368,26 @@
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
+<<<<<<< HEAD
 					"buffer": 12,
+=======
+					"buffer": 14,
+>>>>>>> parent of aae4754... Start to put in bootstrap
 					"file": "playschool.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4028,
+						"buffer_size": 3568,
 						"regions":
 						{
 						},
@@ -1401,18 +1402,21 @@
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 20,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
+<<<<<<< HEAD
 					"buffer": 13,
+=======
+					"buffer": 15,
+>>>>>>> parent of aae4754... Start to put in bootstrap
 					"file": "playschool-old.html",
 					"semi_transient": false,
 					"settings":
@@ -1432,23 +1436,26 @@
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
+<<<<<<< HEAD
 					"buffer": 14,
+=======
+					"buffer": 16,
+>>>>>>> parent of aae4754... Start to put in bootstrap
 					"file": "staff.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5836,
+						"buffer_size": 5376,
 						"regions":
 						{
 						},
@@ -1463,23 +1470,26 @@
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
+<<<<<<< HEAD
 					"buffer": 15,
+=======
+					"buffer": 17,
+>>>>>>> parent of aae4754... Start to put in bootstrap
 					"file": "sundaymorning.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6609,
+						"buffer_size": 6149,
 						"regions":
 						{
 						},
@@ -1494,23 +1504,26 @@
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
+<<<<<<< HEAD
 					"buffer": 16,
+=======
+					"buffer": 18,
+>>>>>>> parent of aae4754... Start to put in bootstrap
 					"file": "sundayschool.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4785,
+						"buffer_size": 4325,
 						"regions":
 						{
 						},
@@ -1525,18 +1538,21 @@
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
+<<<<<<< HEAD
 					"buffer": 17,
+=======
+					"buffer": 19,
+>>>>>>> parent of aae4754... Start to put in bootstrap
 					"file": "sundayschoola.html",
 					"semi_transient": false,
 					"settings":
@@ -1556,18 +1572,21 @@
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
+<<<<<<< HEAD
 					"buffer": 18,
+=======
+					"buffer": 20,
+>>>>>>> parent of aae4754... Start to put in bootstrap
 					"file": "umwomen  save 7-21-15.html",
 					"semi_transient": false,
 					"settings":
@@ -1587,23 +1606,26 @@
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
+<<<<<<< HEAD
 					"buffer": 19,
+=======
+					"buffer": 21,
+>>>>>>> parent of aae4754... Start to put in bootstrap
 					"file": "umwomen.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3543,
+						"buffer_size": 3083,
 						"regions":
 						{
 						},
@@ -1618,18 +1640,21 @@
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
+<<<<<<< HEAD
 					"buffer": 20,
+=======
+					"buffer": 22,
+>>>>>>> parent of aae4754... Start to put in bootstrap
 					"file": "WesleyStyleSheet.css",
 					"semi_transient": false,
 					"settings":
@@ -1647,23 +1672,26 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"wrap_width": 0
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
+<<<<<<< HEAD
 					"buffer": 21,
+=======
+					"buffer": 23,
+>>>>>>> parent of aae4754... Start to put in bootstrap
 					"file": "whoweare.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6997,
+						"buffer_size": 6537,
 						"regions":
 						{
 						},
@@ -1678,23 +1706,26 @@
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
+<<<<<<< HEAD
 					"buffer": 22,
+=======
+					"buffer": 24,
+>>>>>>> parent of aae4754... Start to put in bootstrap
 					"file": "worship.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11189,
+						"buffer_size": 10731,
 						"regions":
 						{
 						},
@@ -1797,31 +1828,34 @@
 								"bh_square_content"
 							],
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"wrap_width": 0
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
+<<<<<<< HEAD
 					"buffer": 23,
+=======
+					"buffer": 25,
+>>>>>>> parent of aae4754... Start to put in bootstrap
 					"file": "youth.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2405,
+						"buffer_size": 1945,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								781,
-								781
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1887,14 +1921,13 @@
 							],
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"wrap_width": 0
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 210.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1948,10 +1981,6 @@
 		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"head.",
-				"C:\\Users\\Randy\\Documents\\GitHub\\WesleyChapel2\\mobile\\head.html"
-			]
 		],
 		"width": 0.0
 	},

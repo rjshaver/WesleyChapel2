@@ -45,9 +45,20 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+<<<<<<< HEAD
+
+
+
+@ My files to ignore
+.bak
+.sublime-project
+.sublime-workspace
+
+=======
 /.project
 
 
 # My sublime files
 .sublime-project
 .sublime-workspace
+>>>>>>> feature/fi_mobile

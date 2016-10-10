@@ -1,0 +1,232 @@
+body {
+    background-color: #66A3FF;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-content: center;
+    adisplay: -webkit-box;
+    adisplay: -moz-box;
+    a-webkit-box-orient: horizontal;
+    a-moz-box-orient: horizontal;
+    abox-orient: horizontal;
+    a-webkit-box-pack: center;
+    a-moz-box-pack: center;
+    aox-pack: center;
+    a-webkit-box-align: center;
+    a-moz-box-align: center;
+    abox-align: center;
+    Aalign-items: stretch;
+    A-webkit-flex-wrap: nowrap;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.rowcell {
+    flex: 0 0 auto;
+    padding: 0px;
+    border: solid 5px red;
+    text-align: center;
+    display: flex;
+    a-webkit-box-flex: 1;
+    a-moz-box-flex: 1;
+    abox-flex: 1;
+    webkit-flex: 1 1 auto;
+    aheight: 300px;
+    aalign-items: center;
+    abox-sizing: content-box;
+    aalign-content: left;
+    aalign-self: stretch;
+    afloat: left;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border: dashed 5px green;
+    adisplay: flex;
+    aflex-basis: inherit;
+    amargin: auto;
+    amax-width: 300px;
+    aalign-content: center;
+}
+
+.leftblank {
+    width: 5%;
+    border-width: 2px;
+    border-color: pink;
+}
+
+.chpic {
+    order: 1;
+    width: 35%;
+    height: 26vw;
+    border-width: 2px;
+    border-color: green;
+}
+
+.crpic {
+    order: 2;
+    width: 10%;
+    height: 26vw;
+    max-height: 100%;
+    aheight: 100%;
+    border-width: 2px;
+    border-color: orange;
+}
+
+
+
+.orot {
+    order: 3;
+    display: flex;
+    height: 26vw;
+    awidth: 100%;
+    max-width: 45%;
+    max-height: 100%;
+    aflex-basis: inherit;
+    border-width: 2px;
+    border-color: purple;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 400px;
+    height: 250px;
+    background-color: lightgrey;
+    -webkit-flex-direction: row;
+*/
+
+    /* Safari */
+/*    flex-direction: row-resize;
+}
+*/
+
+/*
+.flex-item {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+*/
+
+
+/*
+.myw3-content {
+    max-width: 980px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+}
+*/
+
+
+/*
+
+.rotpic {
+    order: 3;
+    max-width: 100%;
+    aheight: 100%;
+    aflex: 1 1 auto;
+    a-webkit-flex-basis: auto;
+    aflex-basis: inherit;
+    aalign-self: stretch;
+    a-webkit-align-items: stretch;
+    aalign-items: stretch;
+    aalign-content: stretch;
+    border-width: 2px;
+    border-color: purple;
+}
+*/
+
+
+
+
+
+
+
+/*
+.col {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    aheight: 100%;
+    border: dotted 4px darkblue;
+    amax-width: 100%;
+}
+
+.colcell {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    a-webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0px;
+    aborder: solid 5px red;
+    text-align: center;
+    border: solid 5px yellowgreen;
+    display: flex;
+    aalign-items: center;
+    box-sizing: content-box;
+    aalign-content: left;
+    aalign-self: stretch;
+}
+*/

@@ -1,0 +1,14 @@
+
+      <img class="mySlides" alt='church (18K)' src='http://www.wesleychapelmethodist.org/images/1-church.jpg'>
+      <img class="mySlides" alt='image1.jpg (9K)' src='http://www.wesleychapelmethodist.org/images/rotate/image1.jpg'>
+      <img class="mySlides" alt=' image2.jpg (9K)' src='http://www.wesleychapelmethodist.org/images/rotate/image2.jpg'>
+       <img class="mySlides" alt='image3.jpg (9K)' src='http://www.wesleychapelmethodist.org/images/rotate/image3.jpg'>
+      <img class="mySlides" alt='image4.jpg (9K)' src='http://www.wesleychapelmethodist.org/images/rotate/image4.jpg'>
+	  <img class="mySlides" alt='image1.jpg (9K)' src='http://www.wesleychapelmethodist.org/images/rotate/image1.jpg'>
+      <img class="mySlides" alt=' image2.jpg (9K)' src='http://www.wesleychapelmethodist.org/images/rotate/image2.jpg'>
+       <img class="mySlides" alt='image3.jpg (9K)' src='http://www.wesleychapelmethodist.org/images/rotate/image3.jpg'>
+      <img class="mySlides" alt='image4.jpg (9K)' src='http://www.wesleychapelmethodist.org/images/rotate/image4.jpg'>
+	  <img class="mySlides" alt='image1.jpg (9K)' src='http://www.wesleychapelmethodist.org/images/rotate/image1.jpg'>
+      <img class="mySlides" alt=' image2.jpg (9K)' src='http://www.wesleychapelmethodist.org/images/rotate/image2.jpg'>
+       <img class="mySlides" alt='image3.jpg (9K)' src='http://www.wesleychapelmethodist.org/images/rotate/image3.jpg'>
+      <img class="mySlides" alt='image4.jpg (9K)' src='http://www.wesleychapelmethodist.org/images/rotate/image4.jpg'>

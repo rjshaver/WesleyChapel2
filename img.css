@@ -1,0 +1,60 @@
+body {
+    background-color: #66A3FF;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-content: center;
+    overflow: hidden;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.rowcell {
+    flex: 0 0 auto;
+    padding: 0;
+    text-align: center;
+    display: flex;
+}
+
+img {
+    display: block;
+    width: auto;
+    height: 100%;
+}
+
+.leftblank {
+    width: 5%;
+}
+
+.chpic {
+    width: 35%;
+    height: 26vw;
+}
+
+.crpic {
+    width: 10%;
+    height: 26vw;
+    max-height: 100%;
+}
+
+.orot {
+    display: block;
+    height: 26vw;
+    width: 45%;
+    max-height: 100%;
+    border-width: 2px;
+}

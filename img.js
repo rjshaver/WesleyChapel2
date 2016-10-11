@@ -1,4 +1,4 @@
-var slideIndex = 0;
+ var slideIndex = 0;
 
 function init_carousel() {
     var i;

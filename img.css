@@ -17,8 +17,6 @@ body {
     overflow: hidden;
 }
 
-
-
 .row::after {
     content: "";
     clear: both;
@@ -30,43 +28,33 @@ body {
     padding: 0px;
     text-align: center;
     display: flex;
-    
 }
 
 img {
-    
-    display:block;
+    display: block;
     width: auto;
     height: 100%;
-    
 }
 
 .leftblank {
     width: 5%;
-  }
+}
 
 .chpic {
-    
     width: 35%;
     height: 26vw;
-  }
+}
 
 .crpic {
-    
     width: 10%;
     height: 26vw;
     max-height: 100%;
-  }
-
-
+}
 
 .orot {
-    
     display: block;
     height: 26vw;
     width: 45%;
     max-height: 100%;
     border-width: 2px;
 }
-
-

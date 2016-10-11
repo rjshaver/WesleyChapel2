@@ -14,22 +14,6 @@ body {
     justify-content: flex-start;
     flex-wrap: nowrap;
     align-content: center;
-  /*  border-color: white;
-    border-width: 3px;
-    border-style: solid;*/
-    adisplay: -webkit-box;
-    adisplay: -moz-box;
-    a-webkit-box-orient: horizontal;
-    a-moz-box-orient: horizontal;
-    abox-orient: horizontal;
-    a-webkit-box-pack: center;
-    a-moz-box-pack: center;
-    aox-pack: center;
-    a-webkit-box-align: center;
-    a-moz-box-align: center;
-    abox-align: center;
-    Aalign-items: stretch;
-    A-webkit-flex-wrap: nowrap;
     overflow: hidden;
 }
 
@@ -44,19 +28,9 @@ body {
 .rowcell {
     flex: 0 0 auto;
     padding: 0px;
-    /*border: solid 5px red;*/
     text-align: center;
     display: flex;
-    a-webkit-box-flex: 1;
-    a-moz-box-flex: 1;
-    abox-flex: 1;
-    webkit-flex: 1 1 auto;
-    aheight: 300px;
-    aalign-items: center;
-    abox-sizing: content-box;
-    aalign-content: left;
-    aalign-self: stretch;
-    afloat: left;
+    
 }
 
 img {
@@ -64,38 +38,25 @@ img {
     display:block;
     width: auto;
     height: 100%;
-    /*border: dashed 5px green;*/
-    adisplay: flex;
-    aflex-basis: inherit;
-    amargin: auto;
-    amax-width: 300px;
-    aalign-content: center;
     
 }
 
 .leftblank {
     width: 5%;
-  /*  border-width: 2px;
-    border-color: pink;*/
-}
+  }
 
 .chpic {
     
     width: 35%;
     height: 26vw;
-  /*  border-width: 2px;
-    border-color: green;*/
-}
+  }
 
 .crpic {
     
     width: 10%;
     height: 26vw;
     max-height: 100%;
-    aheight: 100%;
-/*    border-width: 2px;
-    border-color: orange;*/
-}
+  }
 
 
 
@@ -103,13 +64,9 @@ img {
     
     display: block;
     height: 26vw;
-    awidth: 100%;
     width: 45%;
     max-height: 100%;
-    aflex-basis: inherit;
     border-width: 2px;
-/*    border-color: purple;
-    border-style: dashed;*/
 }
 
 

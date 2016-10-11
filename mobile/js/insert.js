@@ -1,5 +1,5 @@
 $(document).ready(function(){ 
-  $.get("images.html", function(data) {
+  $.get("imgs.html", function(data) {
     $("#images").html(data);
   });
 }); 

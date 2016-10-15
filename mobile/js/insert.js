@@ -15,7 +15,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){ 
   $.get("footer.html", function(data) {
-    $("#footer").html(data);
+    $("#footr").html(data);
   });
 }); 
  

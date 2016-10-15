@@ -17,10 +17,143 @@ body {
     overflow: hidden;
 }
 
+.nomargin{
+    margin:0 0 0 0;
+}
+
+.index{
+    font-family:"Times New Roman","sans-serif";
+}
+
+.index>h1{
+    font-family:"Times New Roman","sans-serif";
+    font-weight:bold;
+}
+
+.smallmargin{
+    margin: 2px 0 2px 0;
+    font-size: 1.3vw;
+}
+
+.fquote>p{
+    text-align: center;
+}
+
+.fboldstart>h2{
+    font-size:    2.5vw;
+    font-weight: bold
+}
+
+
+.fboldstart{
+    border: 1 px solid #000000;
+    /*font-size:14.0pt;*/
+    text-align: left;
+    margin:0 3% 0 10%;
+    /*font-family:"Gill Sans MT","sans-serif";*/
+}
+
+.fitalstart{
+    /*width:830px;*/
+    /*margin-left:-10px;*/
+    padding:0 8% 0 8%;
+    position: relative;
+text-align: justify;
+/*left: 40px;
+width: 1085px;*/
+}
+
+.wid100{
+    width:100%;
+}
+
+
+.fquote{
+
+}
+
+.pad20{
+    padding: 20px 0 20px 0;
+}
+
+.frow {
+    display: block;
+    
+    /*align-content: center;
+    */overflow: hidden;
+}
+
+.flex{
+      display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-content: center;
+    overflow: hidden; 
+}
+
+.flexcol{
+         display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    overflow: hidden; 
+}
+
+.flexcell{
+    /*flex: 0 0 auto;*/
+    padding: 0;
+    text-align: center;
+    display: flex;
+}
+
+.w5{
+    width: 5%;
+}
+
+.w80{
+    width:80%;
+}
+
+.vertcenter{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.flexfull{
+    display:flex;
+    justify-content:center;
+    align-content:stretch;
+    height:100%;
+    /*width: 100%;*/
+
+}
+
+.texwidth{
+    width: 85%;
+    display:inline-block;
+    align-items: center;
+}
+
 .row::after {
     content: "";
     clear: both;
     display: block;
+}
+
+.textcenter{
+    display: flex;
+    text-align:center;
+    font-size: 1.5vw;
+    align-content: center;
+    justify-content: center;
+    vertical-align: middle;
 }
 
 .rowcell {
@@ -28,6 +161,13 @@ body {
     padding: 0;
     text-align: center;
     display: flex;
+}
+
+.flexcell>img{
+    display:block;
+    width: 100%;
+    height: 100%;
+
 }
 
 img {
@@ -38,6 +178,48 @@ img {
 
 .leftblank {
     width: 5%;
+}
+
+.fleftblank {
+    width: 5%;
+}
+
+.foot{
+    width:80%;
+
+}
+
+.crossimg{
+    display:inline-block;
+    position:relative; 
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    align-content: center;
+    justify-content: center;
+    vertical-align: middle;
+   /* left:15px;
+    width=20px; 
+    height=30px;*/
+}
+
+.crosssmall{
+    display:inline-block;
+    width:3%;
+    height:auto;
+    margin: 0 1% 0 1%;
+    justify-content: center;
+    align-content: center;
+    vertical-align:middle;
+}
+
+.upper_block{
+    background-color:#B8C4EB;
+}
+
+.lower_block{
+    background-color:#E7EBF8 ;
 }
 
 .chpic {

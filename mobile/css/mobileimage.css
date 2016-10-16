@@ -135,11 +135,24 @@ width: 1085px;*/
 
 }
 
+.facebookimg{
+         position:relative;
+         /*left:-140px;*/
+         width:155px;
+
+}
+
 .texwidth{
     width: 85%;
     display:inline-block;
     align-items: center;
 }
+
+
+w3-container>.row>.rowcell{
+    margin: 0 4px 0 4px;
+}
+
 
 .row::after {
     content: "";

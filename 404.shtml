@@ -1,0 +1,16 @@
+We are very sorry, but you have requested a page which does not exist. 
+
+You requested the page <!--#echo var="REQUEST_URI" --> from
+<!--#echo var="HTTP_REFERER" -->.
+
+You are visiting from <!--#echo var="REMOTE_ADDR" --> on <!--#echo var="HTTP_USER_AGENT" -->.
+
+This is the server <!--#echo var="HTTP_HOST" -->.
+
+You can easily go to our main site by clicking on the link below:
+
+<a href="http://www.wesleychapelmethodist.org/">Wesley Chapel UMC</a>
+
+<!-- 
+                                                                                                                                                     
+--> 

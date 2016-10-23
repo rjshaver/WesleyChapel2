@@ -1,0 +1,331 @@
+.centerboxred{
+    height: 4px;
+    width: 0;
+    border: 1px solid red;
+    margin: 0 50% 0 50%;
+    
+}
+
+/*    CSS for all the pages  */
+body {
+    background-color: #66A3FF;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+body p{
+    font-family: "Times New Roman", Times, serif;
+}
+
+.redborder{
+    border: 1px solid red;
+}
+
+.greenborder{
+    border: 1px solid green;
+}
+
+.yellowborder{
+    border: 1px solid yellow;
+}
+
+.goldborder{
+    border: 1px solid gold;
+}
+
+.purpleborder{
+    border: 1px solid purple;
+}
+
+.orangeborder{
+    border: 1px solid orange;
+}
+
+.blueborder{
+    border: 1px solid blue;
+}
+
+
+
+
+
+.mybody{
+      background-color: #66A3FF;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+    font-family: "Times New Roman", Times, serif; 
+}
+
+
+.mybody h1{
+
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.flex{
+    display:flex;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.column{
+    flex-direction:column;
+}
+
+.rowcell {
+    flex: 0 0 auto;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.rowcell > img{
+    margin-bottom: 0;
+    max-width:100%;
+    max-height:100%;
+}
+
+
+.overflowhidden{
+    overflow: hidden;
+}
+
+.columncell{
+    flex: 0 0 auto;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.justcenter{
+    justify-content: center;
+}
+
+.textcenter{
+    text-align: center;
+}
+
+.aligncenter{
+    align-content: center;
+}
+
+.justifyspacebetween{
+    
+    justify-content: space-between;
+}
+
+.nowrap{
+    flex-wrap:nowrap;
+}
+
+.wrap{
+    flex-wrap:wrap;
+}
+
+
+
+.wid100{
+    width:100%;
+}
+
+
+
+/*.pad20{
+    padding: 20px 0 20px 0;
+}
+*/
+.margin5{
+    margin: 0 5vw 0 5vw;
+    /*border: 1px solid red;*/
+}
+
+/*.column{
+    flex-direction: column;
+}
+*/
+.box{
+    display:block;
+}
+
+.inline{
+    display:inline;
+}
+
+p{
+    font-size:1.8vw;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+/*     CSS for the images in img.html    */
+.chpic {
+    /*width: auto;
+    height: 26vw;*/
+    
+    max-width: 35%;
+    width: 35%;
+
+}
+
+.flex > .chpic{
+    flex:1 1 auto;
+}
+
+.crpic {
+    width: 10%;
+    height: 26vw;
+    max-height: 100%;
+}
+
+.orot {
+    display: block;
+    height: 26vw;
+    width: 45%;
+    max-height: 100%;
+    margin-left: 0;
+    /*border-width: 2px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*    CSS for the footer     */
+.footer_upper_block{
+    background-color:#B8C4EB;
+    overflow-y: hidden;
+}
+
+
+.footer_upper_text{
+    margin: 0 5vw 0 5vw;
+}
+
+
+.footer_boldstart{
+    
+   
+    text-align: left;
+    overflow:hidden;
+   
+}
+
+.footer_quoted{
+    overflow: hidden;
+}
+
+.footer_boldstart > h2{
+    margin: 1vw 0 1vw 0;
+    font-size: 2.3vw;
+}
+
+.footer_italstart{
+    
+    
+    /*position: relative;*/
+text-align: justify;
+overflow: hidden;
+
+}
+
+.footer_smallmargin{
+    margin: 0.4vw 0 0.4vw 0;
+    font-size: 1.4vw;
+}
+
+
+.footer_lower_block{
+    background-color:#E7EBF8 ;
+    overflow: auto;
+    /*display: inline-block;*/
+}
+
+
+
+.crosssmall{
+    display:inline-block;
+    width:3vw;
+    height:auto;
+    margin: 0 1vw 0 1vw;
+    justify-content: center;
+    align-content: center;
+    vertical-align:middle;
+}
+
+
+
+.crossimg{
+    display:inline-block;
+    /*position:relative; */
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    align-content: center;
+    justify-content: center;
+    vertical-align: middle;
+    margin: 0.6vw 0 0.6vw 0;
+   /* left:15px;
+    width=20px; 
+    height=30px;*/
+}
+
+.texwidth{
+    /*width: 78vw;*/
+    /*height: 100%;*/
+    /*display:inline-block;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*align-content: center;*/
+    vertical-align: middle;
+}
+
+.texheight{
+    vertical-align: middle;
+    position: relative;
+}
+
+address .textcenter{
+    display: flex;
+    text-align:center;
+    font-size: 1.5vw;
+    align-content: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+   .imgleft {
+    float: left;
+    margin: 0 0 0 0;
+    }
+    .imgright {
+    float: right;
+    margin: 0 0 0 0;
+    }

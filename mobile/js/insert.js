@@ -1,5 +1,5 @@
 $(document).ready(function(){ 
-  $.get("imgs.html", function(data) {
+  $.get("imgs2.html", function(data) {
     $("#images").html(data);
   });
 }); 
@@ -18,4 +18,12 @@ $(document).ready(function(){
     $("#footr").html(data);
   });
 }); 
+
+$(document).ready(function(){ 
+  $.get("home.html", function(data) {
+    $("#maincontent").html(data);
+  });
+}); 
+
+
  

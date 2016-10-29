@@ -68,6 +68,10 @@ h1{
 
 h2{
     font-size: 2.3vw;
+        -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
 }
 
 h3{
@@ -179,8 +183,15 @@ h3{
 p {
     font-size: 1.8vw;
     text-align: justify;
+    
 }
 
+.margin5 p{
+        -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
 
 /*     CSS for the images in img.html    */
 
@@ -289,6 +300,10 @@ body > div > div > div.w3-panel.fpill.pill.w3-round-xlarge.otp.pin > a {
     /*text-decoration: underline;*/
 }
 
+.fpill:hover{
+    cursor:pointer;
+}
+
 .pill a:hover {
     /*display:none;*/
     /*text-decoration: underline;*/
@@ -363,6 +378,7 @@ body > div > div > div.w3-panel.fpill.pill.w3-round-xlarge.otp.pin > a {
 .footer_upper_block {
     background-color: #B8C4EB;
     overflow-y: hidden;
+    margin: 1vw 0 0 0;
 }
 
 .footer_upper_text {
@@ -493,6 +509,10 @@ address .textcenter {
 
 }
 
+.facebookbadge{
+    margin:0 0 0 4vw;
+}
+
 
 .servicetimes > p{
 
@@ -535,4 +555,36 @@ address .textcenter {
     width:9vw;
     height: auto;
     /*width="a70" height="a69" style="border:0" */
+}
+
+
+
+    /*Sunday Morning Insert.html */
+.sundaymorningss {
+    /*font-size:20px;*/
+    /*font-size:1.8vw;*/
+    /*position:relative;*/
+    /*top:-15px;*/
+
+}
+
+
+
+/*              directions page             */
+
+.map{
+    display:flex;
+    width: 42.5vw;
+    height: 32.0vw;
+   /* border: 1px solid green;*/
+}
+
+.mapiframe{
+    flex: 1 1 auto;
+    width:auto;
+    height:auto;
+    /*border: 1px solid red;*/
+    border: 0;
+    margin: 0;
+    overflow:hidden;
 }

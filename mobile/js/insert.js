@@ -26,40 +26,84 @@ $(document).ready(function(){
 }); 
 
 
-$(document).ready(function(){
-	document.getElementById("menu").getElementById("sundaymorning").onclick = function(){
-			alert("Sunady");
+// $(document).ready(function(){ 
+//   $.get("facebook.html", function(data) {
+//     $("#afacehtml").html(data);
+//   });
+// }); 
+// 
+// 
+
+
+function home(){
+	
+	  $.get("home.html", function(data) {
+    $("#maincontent").html(data);
+  });
+}
+
+function sundaymorning(){
+		
 			$.get("sundaymorninginsert.html", function(data){
 				$("#maincontent").html(data)});
-	
-	};
-
-	$(".home").click(function() {
-		alert("home");
-	$.get("home.html", function(data){
-		$("#maincontent").html(data);
-		});
-
-	});
-
-$(".sundaymorning").click(function() {
-	alert("Sunady");
-	$.get("sundaymorninginsert.html", function(data){
-		$("#maincontent").html(data);
-	});
-});
-
-$("#sundaymorning")
-
-$(".directions").click(function() {
-	alert("directions");
-	$.get("directions3.html", function(data){
-		$("#maincontent").html(data);
-	});
-});
-
-});
+}
 
 
+function directions(){
+		
+			$.get("directions3.html", function(data){
+				$("#maincontent").html(data)});
+}
+
+function missions(){
+		
+			$.get("missions2.html", function(data){
+				$("#maincontent").html(data)});
+}
+
+
+
+function calendar(){
+		
+			$.get("calendar.html", function(data){
+				$("#maincontent").html(data)});
+}
+
+function contact(){
+		
+			$.get("contact.html", function(data){
+				$("#maincontent").html(data)});
+}
+function whoweare(){
+		
+			$.get("sundaymorninginsert.html", function(data){
+				$("#maincontent").html(data)});
+}
+
+
+
+function staff(){
+		
+			$.get("sundaymorninginsert.html", function(data){
+				$("#maincontent").html(data)});
+}
+
+function history(){
+		
+			$.get("sundaymorninginsert.html", function(data){
+				$("#maincontent").html(data)});
+}
+
+function playschool(){
+		
+			$.get("sundaymorninginsert.html", function(data){
+				$("#maincontent").html(data)});
+}
+
+function unitedMethodistWomen(){
+		
+			$.get("sundaymorninginsert.html", function(data){
+				$("#maincontent").html(data)});
+}
 
  

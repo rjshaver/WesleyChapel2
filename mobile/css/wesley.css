@@ -16,6 +16,24 @@ body {
     font-family: "Times New Roman", Times, serif;
 }
 
+/*.missionimgbox{
+    width:60vw;
+    height: auto;
+}*/
+
+.missionimg{
+    /*width="592px";*/
+/*    width="60vw";
+    height="377px";*/
+    border:0;
+    width:45vw;
+    /*position:relative;*/
+    /*top:10px;*/
+}
+
+
+
+
 body p {
     font-family: "Times New Roman", Times, serif;
 }
@@ -78,6 +96,11 @@ h3{
     font-size: 1.8vw;
 }
 
+p>a{
+    font-size: 1.6vw;
+    text-decoration: underline;
+}
+
 .flex {
     display: flex;
 }
@@ -105,8 +128,8 @@ h3{
     overflow: hidden;
 }
 
-.padu10 {
-    padding: 10px 0 0 0;
+.padv10 {
+    padding: 1vw 0 1vw 0;
 }
 
 .overflowhidden {
@@ -176,12 +199,14 @@ h3{
     display: block;
 }
 
+/*span style='font-size:12.0pt;font-family:"Times New Roman"'>*/
+
 .inline {
     display: inline;
 }
 
 p {
-    font-size: 1.8vw;
+    font-size: 1.6vw;
     text-align: justify;
     
 }
@@ -483,7 +508,9 @@ address .textcenter {
 /*This section is for individual pages*/
 
   /*HOME  (original index)*/
-
+.homeleft{
+    width:60vw;
+}
 
 .facebooklike{
     border-bottom-style:none;
@@ -495,22 +522,43 @@ address .textcenter {
     /*width:450px;*/
     overflow:hidden;
     background-color: transparent;
-    border: 01px solid purple;
+    /*border: 01px solid purple;*/
     padding: 0;
 
 
 
 }
 
+
+
+.facehtml{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    /*border: 1px solid goldenrod;*/
+}
+
+.facehtml>iframe{
+    flex:1  auto;
+     height: 55vw;
+    width: 27vw;
+    border: 1px solid red;
+    padding: 20px;
+    overflow: hidden;
+    align-items: stretch;
+
+}
+
 .facebooklike iframe{
     overflow: hidden;
-    height: auto;
+  /*  height: 55vw;
+    width: 34vw;*/
 
 
 }
 
 .facebookbadge{
-    margin:0 0 0 4vw;
+    margin:0 0 0 2vw;
 }
 
 
@@ -588,3 +636,23 @@ address .textcenter {
     margin: 0;
     overflow:hidden;
 }
+
+
+/*                  calendar page         */
+.calendarbox{
+
+}
+
+.calendariframe{
+    border: 0;
+    width:90vw; 
+    height:60vw;
+    /*height:800;*/
+    /*frameborder:"0";*/
+    /*scrolling="no";*/
+    overflow:hidden;
+}
+
+
+
+

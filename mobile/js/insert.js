@@ -26,13 +26,13 @@ $(document).ready(function(){
 }); 
 
 
-// $(document).ready(function(){ 
-//   $.get("facebook.html", function(data) {
-//     $("#afacehtml").html(data);
-//   });
-// }); 
-// 
-// 
+$(document).ready(function(){ 
+  $.get("facebook.html", function(data) {
+    $("#afacehtml").html(data);
+  });
+}); 
+
+
 
 
 function home(){
@@ -74,9 +74,11 @@ function contact(){
 			$.get("contact.html", function(data){
 				$("#maincontent").html(data)});
 }
+
+
 function whoweare(){
 		
-			$.get("sundaymorninginsert.html", function(data){
+			$.get("whoweare.html", function(data){
 				$("#maincontent").html(data)});
 }
 
@@ -84,25 +86,25 @@ function whoweare(){
 
 function staff(){
 		
-			$.get("sundaymorninginsert.html", function(data){
+			$.get("staff.html", function(data){
 				$("#maincontent").html(data)});
 }
 
 function history(){
 		
-			$.get("sundaymorninginsert.html", function(data){
+			$.get("history.html", function(data){
 				$("#maincontent").html(data)});
 }
 
 function playschool(){
 		
-			$.get("sundaymorninginsert.html", function(data){
+			$.get("playschool.html", function(data){
 				$("#maincontent").html(data)});
 }
 
 function unitedMethodistWomen(){
 		
-			$.get("sundaymorninginsert.html", function(data){
+			$.get("umwomen.html", function(data){
 				$("#maincontent").html(data)});
 }
 

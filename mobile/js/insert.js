@@ -52,7 +52,7 @@ $(document).ready(function(){
    $.get("menu.html", function(data) {
     $("#menu").html(data);
   });
-   $.get("imgs2.html", function(data) {
+   $.get("imgs.html", function(data) {
     $("#images").html(data);
   });
    $.get("home.html", function(data) {

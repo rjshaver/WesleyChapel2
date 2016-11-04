@@ -301,6 +301,11 @@ a {
     text-decoration: none;
 }
 
+a:hover{
+    /*background-color:orange;*/
+    color:red;
+}
+
 .fpillrow {
     /*display: -ms-flexbox;
     display: -webkit-flex;*/
@@ -569,16 +574,12 @@ address .textcenter {
     font-family: "Times New Roman", Times, serif;
 }
 
-.homeright + a {
-    width: 15vw;
-    color: red;
+
+
+#maincontent > div > div.w3-row.flex.row > div.homeright.flex.column > a:nth-child(1){
+    width:15vw;
 }
 
-.homeright >:first_of_type {
-    width: 8vw;
-    font-size: 25vw;
-    color: red;
-}
 
 .homeright > a > img {
     width: 15vw;

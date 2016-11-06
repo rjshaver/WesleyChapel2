@@ -65,32 +65,6 @@ $(document).ready(function(){
 }); 
 
 
-
-// $(document).ready(function(){ 
-//   $.get("menu.html", function(data) {
-//     $("#menu").html(data);
-//   });
-// }); 
-
-
-// $(document).ready(function(){ 
-//   $.get("footer.html", function(data) {
-//     $("#footr").html(data);
-//   });
-// }); 
-
-// $(document).ready(function(){ 
-//   $.get("home.html", function(data) {
-//     $("#maincontent").html(data);
-//   });
-// }); 
-
-
- 
-
-
-
-
 function home(){
 	
 	  $.get("home.html", function(data) {
@@ -101,20 +75,20 @@ function home(){
 
 function sundaymorning(){
 		
-			$.get("sundaymorninginsert.html", function(data){
+			$.get("sundaymorning.html", function(data){
 				$("#maincontent").html(data)});
 }
 
 
 function directions(){
 		
-			$.get("directions3.html", function(data){
+			$.get("directions.html", function(data){
 				$("#maincontent").html(data)});
 }
 
 function missions(){
 		
-			$.get("missions2.html", function(data){
+			$.get("missions.html", function(data){
 				$("#maincontent").html(data)});
 }
 

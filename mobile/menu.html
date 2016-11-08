@@ -1,221 +1,63 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title></title>
-        <link rel="stylesheet" type="text/css" href="http://www.w3schools.com/lib/w3.css">
-        <link rel="stylesheet" type="text/css" href="css/WesleyStyleSheet.css">
-        <link rel="stylesheet" type="text/css" href="css/menu.css">
-         
-   
-        <style type="text/css">
-    
-        .menu{
-        background:#B3B6C9;
-        /*width: 70%;*/
-        border:0px;
-        }
 
-        a{
-            text-decoration: none;
-        }
-        </style>
-    </head>
-    <body class="container">
- 
- 
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" href="css/wesley.css">
+    <link rel="stylesheet" type="text/css" href="http://www.w3schools.com/lib/w3.css"> -->
+</head>
 
-
-<div class="menurow">
-            <div class="mleft"></div>
-            <div class="mcenter fpillrow navbar">
-
-               
-                    <div class="w3-panel fpill pill w3-round-xlarge otp pin pho" style="width:12%"> <a class="apin" href="index.html" target="_top">HOME </a></div>
-                    <div class="w3-panel fpill pill w3-round-xlarge otp pin psm" style="width:18%">
-                        <a class="apsm" href="sundaymorning.html" target="_top">SUNDAY MORNING</a></div>
-                    <div class="w3-panel fpill pill w3-round-xlarge otp pin pdi" style="width:16%">
-                        <a class="apdi" href="directions.html" target="_top">DIRECTIONS</a></div>
-                    <div class="w3-panel fpill pill w3-round-xlarge otp pin pmi" style="width:14%">
-                        <a class="apmi" href="missions.html" target="_top">MISSIONS</a></div>
-                    <div class="w3-panel fpill pill w3-round-xlarge otp pin pca" style="width:15%">
-                        <a class="apca" href="calendar.html " target="_top">CALENDAR</a></div>
-                    <div class="w3-panel fpill pill w3-round-xlarge otp pin pco" style="width:14%">
-                        <a class="apco" href="contact.html" target="_top">CONTACT</a></div>
-              
-                    <div class="w3-panel fpill pill w3-round-xlarge otp pin pwwa" style="width:15%">
-                        <a class="apwwa"  href="whoweare.html" target="_top">WHO WE ARE</a>
-                    </div>
-                    <div class="w3-panel fpill pill w3-round-xlarge otp pin pst" style="width:12%">
-                        <a class="apst" href="staff.html" target="_top">STAFF</a></div>
-                    <div class="w3-panel fpill pill w3-round-xlarge otp pin phi" style="width:13%">
-                        <a class="aphi" href="history.html" target="_top">HISTORY</a></div>
-                    <div class="w3-panel fpill pill w3-round-xlarge otp pin ppl" style="width:16%">
-                        <a class="appl" href="playschool.html" target="_top">PLAYSCHOOL</a></div>
-                    <div class="w3-panel fpill pill w3-round-xlarge otp pin pumm" style="width:25%">
-                        <a class="apumm" href="umwomen.html" target="_top">UNITED METHODIST WOMEN</a></div>
-              
-
-
-
-                    
-                
-                
-            </div>
-            <div class="mright"></div>
+<body>
+    <div class="flex row justcenter nowrap aligncenter overflowhidden padv10 margin5">
+        <div class="fpillrow flex row wrap aligncenter overflowhidden nomargin justifyspacearound">
+            <a href="#" onClick="home();">
+                <div id="home" class="home w3-panel fpill pill w3-round-xlarge otp pin pho" style="width:12%"> HOME </div>
+            </a>
+            <a href="#" onClick="sundaymorning();">
+                <div id="sundaymorning" class="sundaymorning w3-panel fpill pill w3-round-xlarge otp pin psm" style="width:18%">
+                    SUNDAY MORNING</div>
+            </a>
+            <a href="#" onClick="directions();">
+                <div id="directions" class="directions w3-panel fpill pill w3-round-xlarge otp pin pdi" style="width:16%">
+                    DIRECTIONS</div>
+            </a>
+            <a href="#" onClick="missions();">
+                <div class="w3-panel fpill pill w3-round-xlarge otp pin pmi" style="width:14%">
+                    MISSIONS</div>
+            </a>
+            <a href="#" onClick="calendar();">
+                <div class="w3-panel fpill pill w3-round-xlarge otp pin pca" style="width:15%">
+                    CALENDAR</div>
+            </a>
+            <a href="#" onClick="contact();">
+                <div class="w3-panel fpill pill w3-round-xlarge otp pin pco" style="width:14%">
+                    CONTACT</div>
+            </a>
+            <a href="#" onClick="whoweare();">
+                <div class="w3-panel fpill pill w3-round-xlarge otp pin pwwa" style="width:15%">
+                    WHO WE ARE
+                </div>
+            </a>
+            <a href="#" onClick="staff();">
+                <div class="w3-panel fpill pill w3-round-xlarge otp pin pst" style="width:12%">
+                    STAFF</div>
+            </a>
+            <a href="#" onClick="history();">
+                <div class="w3-panel fpill pill w3-round-xlarge otp pin phi" style="width:13%">
+                    HISTORY</div>
+            </a>
+            <a href="#" onClick="playschool();">
+                <div class="w3-panel fpill pill w3-round-xlarge otp pin ppl" style="width:16%">
+                    PLAYSCHOOL</div>
+            </a>
+            <a href="#" onClick="unitedMethodistWomen();">
+                <div class="w3-panel fpill pill w3-round-xlarge otp pin pumm" style="width:25%">
+                    UNITED METHODIST WOMEN</div>
+            </a>
         </div>
+    </div>
+</body>
 
-
-
-
-        
-    </body>
 </html>
-
-
-
-<!-- <div class="menurow addpad">
-            <div class="mleft"></div>
-            <div class="mcenter pillrow anavbar">
-
-                <ul class="w3-navbar w3-center">
-                    <li class="pill w3-panel w3-round-xlarge otp pin pho" style="width:12%">
-                        <a class="apin" href="index.html" target="_top">HOME </a></li>
-                    <li class="pill w3-panel w3-round-xlarge otp pin psm" style="width:23%">
-                        <a class="apsm" href="sundaymorning.html" target="_top">SUNDAY MORNING</a></li>
-                    <li class="pill w3-panel w3-round-xlarge otp pin pdi" style="width:16%">
-                        <a class="apdi" href="directions.html" target="_top">DIRECTIONS</a></li>
-                    <li class="pill w3-panel w3-round-xlarge otp pin pmi" style="width:14%">
-                        <a class="apmi" href="missions.html" target="_top">MISSIONS</a></li>
-                    <li class="pill w3-panel w3-round-xlarge otp pin pca" style="width:15%">
-                        <a class="apca" href="calendar.html " target="_top">CALENDAR</a></li>
-                    <li class="pill w3-panel w3-round-xlarge otp pin pco" style="width:14%">
-                        <a class="apco" href="contact.html" target="_top">CONTACT</a></li>
-                   
-                </ul>
-
-                <ul class="w3-navbar w3-center">
-                    <li class="pill w3-panel w3-round-xlarge otp pin pwwa" style="width:20%">
-                        <a class="apwwa"  href="whoweare.html" target="_top">WHO WE ARE</a>
-                    </li>
-                    <li class="pill w3-panel w3-round-xlarge otp pin pst" style="width:12%">
-                        <a class="apst" href="staff.html" target="_top">STAFF</a></li>
-                    <li class="pill w3-panel w3-round-xlarge otp pin phi" style="width:15%">
-                        <a class="aphi" href="history.html" target="_top">HISTORY</a></li>
-                    <li class="pill w3-panel w3-round-xlarge otp pin ppl" style="width:18%">
-                        <a class="appl" href="playschool.html" target="_top">PLAYSCHOOL</a></li>
-                    <li class="pill w3-panel w3-round-xlarge otp pin pumm" style="width:35%">
-                        <a class="apumm" href="umwomen.html" target="_top">UNITED METHODIST WOMEN</a></li>
-                </ul>
-
-
-
-                    
-                
-                
-            </div>
-            <div class="mright"></div>
-        </div> -->
-
-   <!--   <!--   
-        <table style="background: #B3B6C9;width:600px;height:110px;border:0">
-            <tr >
-                <td >
-                    <p class="left">
-                        <a href="index.html" target="_top">HOME </a> &nbsp | &nbsp
-                        <a href="sundaymorning.html" target="_top">SUNDAY MORNING</a> &nbsp | &nbsp
-                        <a href="directions.html" target="_top">DIRECTIONS</a> &nbsp | &nbsp
-                        <a href="missions.html" target="_top">MISSIONS</a> &nbsp | &nbsp
-                        <a href="calendar.html " target="_top">CALENDAR</a> &nbsp | &nbsp
-                        <a href="contact.html" target="_top">CONTACT</a> &nbsp
-                        
-                    </p>
-                    <p class="left">
-                        <a href="whoweare.html" target="_top">WHO WE ARE</a> &nbsp | &nbsp
-                        <a href="staff.html" target="_top">STAFF</a> &nbsp | &nbsp
-                        <a href="history.html" target="_top">HISTORY</a> &nbsp | &nbsp
-                        <a href="playschool.html" target="_top">PLAYSCHOOL</a> &nbsp | &nbsp
-                        <a href="umwomen.html" target="_top">UNITED METHODIST WOMEN</a>
-                        
-                    </p>
-                </td> style="padding-top:0px"
-            </tr>
-        </table> --> 
-     <!--    <div class="container-fluid">
-            <div class="row addpad">
-                <div class="col-sm-7 menu">
-                    <p>
-                        <ul class="nav nav-pills" role="tablist">
-                            <li role="presentation"><a href="index.html" target="_top">HOME </a></li>
-                            <li role="presentation"><a href="sundaymorning.html" target="_top">SUNDAY MORNING</a></li>
-                            <li role="presentation"><a href="directions.html" target="_top">DIRECTIONS</a> </li>
-                            <li role="presentation"><a href="missions.html" target="_top">MISSIONS</a> </li>
-                            <li role="presentation"><a href="calendar.html " target="_top">CALENDAR</a> </li>
-                            <li role="presentation"><a href="contact.html" target="_top">CONTACT</a> </li>
-
-                            <li role="presentation"><a href="whoweare.html" target="_top">WHO WE ARE</a> </li>
-                            <li role="presentation"><a href="staff.html" target="_top">STAFF</a> </li>
-                            <li role="presentation"><a href="history.html" target="_top">HISTORY</a> </li>
-                            <li role="presentation"><a href="playschool.html" target="_top">PLAYSCHOOL</a> </li>
-                            <li role="presentation"><a href="umwomen.html" target="_top">UNITED METHODIST WOMEN</a></li>
-                        </ul>
-                        
-                    </p>
-                </div>
-                
-            </div>
-        </div> -->
-  <!--       <div class="menurow addpad">
-            <div class="mleft"></div>
-            <div class="mcenter">
-                <div class="pillrow navbar">
-                    <div class="pill w3-panel w3-round-xlarge otp pin">
-                        <a href="index.html" target="_top">HOME </a>    
-                    </div>
-                    <div class="pill w3-panel w3-round-large otp psm">
-<a href="sundaymorning.html" target="_top">SUNDAY MORNING</a>
-                    </div>
-                    <div class="pill w3-panel w3-round-large otp pdi">
-
-
-<a href="directions.html" target="_top">DIRECTIONS</a> 
-                    </div>
-                    <div class="pill w3-panel w3-round-large otp pmi">
-
-<a href="missions.html" target="_top">MISSIONS</a> 
-                    </div>
-                    <div class="pill w3-panel w3-round-large otp pca">
-
-<a href="calendar.html " target="_top">CALENDAR</a>
-                    </div>
-                    <div class="pill w3-panel w3-round-large otp pco">
- 
-<a href="contact.html" target="_top">CONTACT</a> 
-                    </div>
-                    <div class="pill w3-panel w3-round-large otp pwwa">
-
-<a href="whoweare.html" target="_top">WHO WE ARE</a> 
-                    </div>
-                    <div class="pill w3-panel w3-round-large otp pst">
-
-<a href="staff.html" target="_top">STAFF</a> 
-                    </div>
-                    <div class="pill w3-panel w3-round-large otp phi">
-
-<a href="history.html" target="_top">HISTORY</a> 
-                    </div>
-                    <div class="pill w3-panel w3-round-large otp pla">
-                        <a href="playschool.html" target="_top">PLAYSCHOOL</a> 
-                    </div>
-                    <div class="pill w3-panel w3-round-large otp pumm">
-                        <a href="umwomen.html" target="_top">UNITED METHODIST WOMEN</a>
-                    </div>
-                    
-                </div>
-                
-            </div>
-            <div class="mright"></div>
-        </div>
-
-
- -->

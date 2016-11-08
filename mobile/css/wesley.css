@@ -234,14 +234,16 @@ p>a {
     /*margin: 0 5vw 0 5vw;*/
     margin-left: 5vw;
     margin-right: 5vw;
+  /*  margin-start: 5vw;
+    margin-end: 5vw;*/
     /*border: 1px solid red;*/
 }
 
 
-/*.column{
+.column{
     flex-direction: column;
 }
-*/
+
 
 .box {
     display: block;
@@ -621,7 +623,9 @@ address .textcenter {
     font-family: "Times New Roman", Times, serif;
 }
 
-
+.wctext{
+    width:15vw;
+}
 
 #maincontent > div > div.w3-row.flex.row > div.homeright.flex.column > a:nth-child(1){
     width:15vw;

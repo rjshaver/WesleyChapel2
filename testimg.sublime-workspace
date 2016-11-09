@@ -1,0 +1,546 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bor",
+				"border-width"
+			],
+			[
+				"line_paddin",
+				"line_padding_bottom	(Preferences.sublime-settings)"
+			],
+			[
+				"highlight",
+				"highlight_line	(Preferences.sublime-settings)"
+			],
+			[
+				"left",
+				"leftblank	(img.css)"
+			],
+			[
+				"place",
+				"placeholderlayer"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "mobile/imgs.html",
+			"settings":
+			{
+				"buffer_size": 13574,
+				"line_ending": "Windows",
+				"name": "<body class=\"w3-container\">"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "prett",
+		"selected_items":
+		[
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"beaut",
+				"HTMLBeautify"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"PACK",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control: ad",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"doc",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"bea",
+				"BracketHighlighter: Select Tag Name (closing and opening)"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"control:in",
+				"Package Control: Install Package"
+			],
+			[
+				"con",
+				"Package Control: Discover Packages"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"control",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"tidy",
+				"Trimmer: Delete empty lines."
+			],
+			[
+				"tid",
+				"Trimmer: Delete empty lines."
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"co",
+				"Color Picker"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 372.0,
+		"history":
+		[
+			"cmd git",
+			"git",
+			"ls",
+			"dir",
+			"cmd",
+			"git",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/css/mobileimage.css",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/js/mobileimage.js",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/css/w3.css",
+		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/pics.html",
+		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/Alignment/Base File.sublime-settings",
+		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/DocBlockr/Base File.sublime-settings",
+		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/User/HTMLBeautify.sublime-settings",
+		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/Default (Windows).sublime-keymap",
+		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/youth.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/worship.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/whoweare.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/css/WesleyStyleSheet.css",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/WesleyStyleSheet.css",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/umwomen.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/umwomen  save 7-21-15.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/sundayschoola.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/sundayschool.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/sundaymorning.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/staff.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/playschool-old.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/playschool.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/missions.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/ministries.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/menu.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/index.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/history.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/header.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/js/insertheader.js",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/js/insertfooter.js",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/js/imagerotate.js",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/images.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/js/insert.js",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/index (2).html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/head.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/footer.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/directions.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/contact.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/calendar2.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/calendar.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/images.html.bak.html",
+		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/Colorsublime/Colorsublime.sublime-settings",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/course.html",
+		"/C/Users/Randy/Documents/GitHub/WesleyChapel2/mobile/pen.html",
+		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/index.html",
+		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/head.html",
+		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/images.html",
+		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/menu.html",
+		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/footer.html",
+		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/sundaymorning.html",
+		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/worship.html",
+		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/css/WesleyStyleSheet.css",
+		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/directions.html",
+		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/missions.html",
+		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/calendar.html",
+		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/calendar2.html",
+		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/church pictures.txt",
+		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/contact.html",
+		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/whoweare.html",
+		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/staff.html",
+		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/history.html",
+		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/playschool.html",
+		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/umwomen.html",
+		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/header.html",
+		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/sundayschool.html",
+		"/C/Users/Randy/Documents/Wesley Chapel Web Site New/Wesley-Chapel/newsite/menu2.html",
+		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/footer.html",
+		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/sundaymorning.html",
+		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/directions.html",
+		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/css/WesleyStyleSheet.css",
+		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/missions.html",
+		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/calendar.html",
+		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/umwomen.html",
+		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/playschool.html",
+		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/history.html",
+		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/contact.html",
+		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/whoweare.html",
+		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/staff.html",
+		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/menu.html",
+		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/images.html",
+		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/newsite web site for changes.sublime-project",
+		"/C/Users/Randy/Documents/Wesley-Chapel/index.html",
+		"/C/Users/Randy/Documents/Wesley-Chapel/images.html",
+		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/index.html",
+		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/header.html",
+		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/head.html",
+		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/youth.html",
+		"/C/Users/Randy/Documents/Wesley-Chapel/newsite/worship.html",
+		"/C/Users/Randy/Documents/GitHub/openbay/src/www/css/opb.css",
+		"/C/Users/Randy/Documents/GitHub/openbay/src/www/css/ie.css",
+		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hrot",
+			"display=\"none\" ",
+			"alt",
+			"select line",
+			"width",
+			"ctrl+p",
+			"w3-content",
+			"content",
+			"0",
+			"35",
+			"mySlides",
+			"position",
+			"placeholderdiv",
+			"290",
+			"436",
+			"pos_justify"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"display=\"none\" alt",
+			"mySlides w3-animate-fading",
+			"193",
+			"291"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "mobile/imgs.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								801,
+								801
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<body class=\"w3-container\">",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										830,
+										831
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										798,
+										799
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 179.0
+	},
+	"pinned_build_system": "",
+	"project": "testimg.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"head.",
+				"C:\\Users\\Randy\\Documents\\GitHub\\WesleyChapel2\\mobile\\head.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 3
+	}
+}

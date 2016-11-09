@@ -116,6 +116,11 @@ h3 {
     float: right;
 }
 
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
 p>a {
     font-size: 1.6vw;
     text-decoration: underline;
@@ -727,6 +732,21 @@ address .textcenter {
     /*top:-15px;*/
 }
 
+.SSMain_content {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.SSMain_content p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.classes, .sundaymorningss, #church_is>p,#join_us>p,#init_disc>p  {
+    margin-top:0;
+    margin-bottom: 0;
+}
+
 
 /*              directions page             */
 
@@ -794,6 +814,9 @@ ol>li {
 /*.minister{
     width:12vw;
 }*/
+.minister_info a{
+    font-size: 1.7vw;
+}
 
 .staffimage {
     /* width:255px;

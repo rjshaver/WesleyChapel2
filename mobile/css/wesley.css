@@ -109,6 +109,14 @@ h3 {
     font-size: 1.8vw;
 }
 
+h2 a {
+    font-size: 2.3vw;
+}
+
+a {
+    font-size: 1.8vw;
+}
+
 .movert {
     display: block;
     /*position:absolute;
@@ -815,7 +823,7 @@ ol>li {
     width:12vw;
 }*/
 .minister_info a{
-    font-size: 1.7vw;
+    font-size: 1.8vw;
 }
 
 .staffimage {
